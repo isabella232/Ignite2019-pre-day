@@ -1,1 +1,0 @@
-df_all.loc[(df_all['machineID'] == 51), :].sort_values(['datetime', 'machineID']).to_csv('bla.csv')

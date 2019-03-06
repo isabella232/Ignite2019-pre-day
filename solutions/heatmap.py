@@ -1,1 +1,0 @@
-ax = sns.heatmap(ct, xticklabels=2, yticklabels=False)
