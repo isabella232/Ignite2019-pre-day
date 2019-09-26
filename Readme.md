@@ -19,14 +19,14 @@ Participants should receive an email with instructions for how to access the lab
 The remaining instructions will be followed on the Data Scienc VM:
 
 1. From the command line, run the following command to clone the Github repository for the course into the VM:
-~~~~
-cd ~
-git clone https://github.com/Azure/LearnAI-ADPM.git
-~~~~
+    ~~~~
+    cd ~
+    git clone https://github.com/Azure/LearnAI-ADPM.git
+    ~~~~
 1. Make Firefox your default browser (just type `default apps` in the windows search box and scroll down to change the default browser).
 1. From the terminal, navigate to the root directory of the cloned repository for this course, and start a Jupyter server:
-~~~~
-cd LearnAI-ADPM
-jupyter notebook
-~~~~
-1. Open the first notebook found in `lab00.0_Setting_Up_Env\lab00.0_configure_environment_DSVM.ipynb`.
+    ~~~~
+    cd LearnAI-ADPM
+    jupyter notebook
+    ~~~~
+1. Open the first notebook found in `lab00.0_Setting_Up_Env\lab00.0_configure_environment_DSVM.ipynb`. Choose `AzureML` as your kernel and follow the instructions in the notebook.
