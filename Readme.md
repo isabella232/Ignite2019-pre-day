@@ -13,7 +13,7 @@ No Azure prerequisites are required. But intermediate knowledge of Python (espec
 Participants should receive an email with instructions for how to access the lab environment.
 
 1. Open your web browser (I recommend using "Private Mode") and go to the link provided in the email, sign up and launch the lab. 
-1. Log into the Azure Portal (link just above username) with the credentials provided and click on **Resource Groups**. You should see an existing resource group.
+1. Log into the Azure Portal (link just above username) with the credentials provided and click on **All resources**. You should see a few pre-allocated resources under an existing resource group.
 1. One of your resources is a VM, called `LabVM`. Click on it click on **Connect** and download the link to RDP into the VM and log in using the credentials provided.
 
 The remaining instructions will be followed on the Data Scienc VM:
