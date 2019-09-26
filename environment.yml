@@ -13,5 +13,5 @@ dependencies:
   - pip:
     - pyculiarity
     - pytictoc
-    - azureml-sdk[automl,notebooks]==0.1.74
+    - azureml-sdk[automl,notebooks]
     
