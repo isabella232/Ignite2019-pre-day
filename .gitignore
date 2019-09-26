@@ -2,3 +2,9 @@
 .vscode
 config.json
 data/*
+lab00.0_Setting_Up_Env/lab00.0_configure_environment_ADB.ipynb
+lab01.1_AD_Introduction
+lab01.2_AD_Model_Development
+lab01.3_AD_ML_Experimentation
+lab01.4_AD_Hyperparameter_Tuning
+lab01.5_AD_Model_Deployment
