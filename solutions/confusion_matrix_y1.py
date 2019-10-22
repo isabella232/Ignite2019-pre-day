@@ -1,1 +1,0 @@
-confusion_matrix(y_test.values[:, 0], y_pred)
