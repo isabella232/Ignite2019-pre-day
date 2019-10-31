@@ -21,7 +21,7 @@ pip install --upgrade azureml-sdk[automl,contrib,explain,notebooks,services]==1.
 ```
 
 ```
-conda activate root
+conda activate py35
 
 pip install --upgrade azureml-sdk[contrib]==1.0.65
 
