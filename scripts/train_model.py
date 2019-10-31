@@ -6,6 +6,7 @@ from sklearn.ensemble import GradientBoostingRegressor
 from sklearn.metrics import r2_score
 from sklearn.metrics import mean_absolute_error
 from sklearn.metrics import make_scorer
+from sklearn.externals import joblib
 import warnings
 import os, argparse
 
@@ -82,7 +83,7 @@ min_samples_split = args.min_samples_split
 learning_rate = args.learning_rate
 
 clf = GradientBoostingRegressor(n_estimators=n_estimators, max_depth=max_depth, min_samples_split=min_samples_split, learning_rate=learning_rate, loss="ls")
-scores = cross_validate(clf, X_train, y_train, scoring=scoring, cv=5, n_jobs=-1)
+scores = cross_validate(clf, X_train, y_train, scoring=scoring, cv=10, n_jobs=-1)
 
 run = Run.get_context()
 
@@ -92,7 +93,24 @@ run.log("val_MAE", scores["test_MAE"].mean())
 run.log("val_R2E", scores["test_R2"].mean())
 
 clf_fitted = clf.fit(X_train, y_train)
+y_train_predicted = clf_fitted.predict(X_train)
 y_test_predicted = clf_fitted.predict(X_test)
 
 run.log("test_MAE", mean_absolute_error(y_test, y_test_predicted))
 run.log("test_R2", r2_score(y_test, y_test_predicted))
+
+model_file_name = "./outputs/gbr_" + str(n_estimators) + "_" + str(max_depth) + "_" + str(min_samples_split) + "_" + str(learning_rate) + ".pkl"
+with open(model_file_name, "wb") as f:
+        joblib.dump(clf_fitted, f)
+
+with open("./outputs/y_train.pkl", "wb") as f:
+        joblib.dump(y_train.values.flatten(), f)
+
+with open("./outputs/y_test.pkl", "wb") as f:
+        joblib.dump(y_test.values.flatten(), f)
+
+with open("./outputs/y_train_predicted.pkl", "wb") as f:
+        joblib.dump(y_train_predicted, f)
+
+with open("./outputs/y_test_predicted.pkl", "wb") as f:
+        joblib.dump(y_test_predicted, f)
