@@ -1,5 +1,4 @@
-.ipynb_checkpoints
-config/*
+.ipynb_checkpoints/*
 .azureml
 download_explanation/*
 explanation/*
