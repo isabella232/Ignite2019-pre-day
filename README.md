@@ -50,5 +50,7 @@ In this course, you learn how to create an end-to-end data science solution, app
    - log into the [Azure portal](https://portal.azure.com/) using the credentials in the lab credentials page
    - click on **Resource groups** and click on your resource group name (should be something like `ODL-machine-learning-######`)
    - click on the virtual machine resource (should be named something like `dsvm-#####`), and
+   ![Resource group](./images/portal_resource_group.jpg)
    - click on **Restart**
+   ![Resource group](./images/portal_restart_dsvm.jpg)
 
