@@ -36,7 +36,7 @@ In this course, you learn how to create an end-to-end data science solution, app
   - keyboard shortcuts
   - kernels and conda
 1. Open a terminal window from Juyter by clicking on **New > Terminal** and type the following command to clone the course repository:
- ```
+ 	```
 	# clone the course repo
 	cd /data/home/labuser/notebooks
 	git clone https://github.com/Azure/Ignite2019-pre-day.git
@@ -46,4 +46,4 @@ In this course, you learn how to create an end-to-end data science solution, app
 	!chmod 755 Ignite2019-pre-day/install_lab.sh
 	!./Ignite2019-pre-day/install_lab.sh`
 	```
-restart dsvm
+1. Restart the data science virtual machine from the Azure portal by (1) log into the [Azure portal](https://portal.azure.com/), (2) click on **Resource groups** and click on your resource group name (should be something like `ODL-machine-learning-######`), (3) click on the virtual machine resource (should be named something like `dsvm-#####`), and (4) click on **Restart**.
