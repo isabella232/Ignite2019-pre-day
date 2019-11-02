@@ -47,9 +47,8 @@ In this course, you learn how to create an end-to-end data science solution, app
 	!./Ignite2019-pre-day/install_lab.sh`
 	```
 1. Restart the data science virtual machine from the Azure portal by 
-  - log into the [Azure portal](https://portal.azure.com/) using the credentials in the lab credentials page
-  - click on **Resource groups** and click on your resource group name (should be something like `ODL-machine-learning-######`)
-  - click on the virtual machine resource (should be named something like `dsvm-#####`), and
-  - click on **Restart**
+   - log into the [Azure portal](https://portal.azure.com/) using the credentials in the lab credentials page
+   - click on **Resource groups** and click on your resource group name (should be something like `ODL-machine-learning-######`)
+   - click on the virtual machine resource (should be named something like `dsvm-#####`), and
+   - click on **Restart**
 
-  
