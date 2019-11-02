@@ -4,29 +4,29 @@ In this course, you learn how to create an end-to-end data science solution, app
 
 ## Agenda
 
-| time          | length | format  | presenter | topic                                                    |
-| -             | -      | -       | -         | -                                                        |
-| 09:00 - 09:15 | 15 min | OPEN    | both      | Introducing instructors and going over course objectives |
-| 09:15 - 09:30 | 15 min | SLIDES  | alvilcek  | Rquirements for an advanced ML platform                  |
-| 09:30 - 10:00 | 30 min | LAB     |           | Preparing lab environment and intro to Jupyter           |
-| 10:00 - 10:15 | 15 min |         |           | Break                                                    |
-| 10:15 - 10:30 | 15 min | OPEN    | alvilcek  | What we learn in this notebook                           |
-| 10:30 - 11:00 | 30 min | LAB     |           | Training an ML model using sklearn                       |
-| 11:00 - 11:15 | 15 min | PORTAL  | alvilcek  | Wrap up and go over slides                               |
-| 11:15 - 11:45 | 15 min | SLIDES  | sethmott  | How Azure offers a comprehensive AI/ML platform          |
-| 11:45 - 12:00 | 15 min |         |           | Q&A                                                      |
-| 12:00 - 13:00 | 60 min |         |           | Lunch                                                    |
-| 13:00 - 13:15 | 15 min | SLIDES  | sethmott  | Introduce hyperdrive concepts                            |
-| 13:15 - 13:45 | 30 min | LAB     |           | Run through hyperdrive notebook                          |
-| 13:45 - 14:00 | 15 min | PORTAL  | sethmott  | Wrap up and go over slides                               |
-| 14:00 - 14:15 | 15 min | SLIDES  | alvilcek  | Introduce AutoML and explainability concepts             |
-| 14:15 - 14:45 | 30 min | LAB     |           | Run through AutoML and explainability notebook           |
-| 14:45 - 15:00 | 15 min | PORTAL  | alvilcek  | Wrap up and go over slides                               |
-| 15:00 - 15:15 | 15 min |         |           | Break                                                    |
-| 15:15 - 15:30 | 15 min | SLIDES  | sethmott  | Introduce deployment concepts                            |
-| 15:30 - 16:15 | 45 min | LAB     |           | Run through deployment notebook                          |
-| 16:15 - 16:30 | 15 min | PORTAL  | sethmott  | Wrap up deployment                                       |
-| 16:30 - 17:00 | 30 min |         |           | Wrap up and Q&A                                          |
+| time          | length | format | presenter          | topic                                                    |
+| -             | -      | -      | -                  | -                                                        |
+| 09:00 - 09:15 | 15 min | OPEN   | both               | Introducing instructors and going over course objectives |
+| 09:15 - 09:30 | 15 min | SLIDES | Alexandre Vilcek   | Rquirements for an advanced ML platform                  |
+| 09:30 - 10:00 | 30 min | LAB    |                    | Preparing lab environment and intro to Jupyter           |
+| 10:00 - 10:15 | 15 min |        |                    | Break                                                    |
+| 10:15 - 10:30 | 15 min | OPEN   | Alexandre Vilcek   | What we learn in this notebook                           |
+| 10:30 - 11:00 | 30 min | LAB    |                    | Training an ML model using sklearn                       |
+| 11:00 - 11:15 | 15 min | PORTAL | Alexandre Vilcek   | Wrap up and go over slides                               |
+| 11:15 - 11:45 | 15 min | SLIDES | Seth Mottaghinejad | How Azure offers a comprehensive AI/ML platform          |
+| 11:45 - 12:00 | 15 min |        |                    | Q&A                                                      |
+| 12:00 - 13:00 | 60 min |        |                    | Lunch                                                    |
+| 13:00 - 13:15 | 15 min | SLIDES | Seth Mottaghinejad | Introduce hyperdrive concepts                            |
+| 13:15 - 13:45 | 30 min | LAB    |                    | Run through hyperdrive notebook                          |
+| 13:45 - 14:00 | 15 min | PORTAL | Seth Mottaghinejad | Wrap up and go over slides                               |
+| 14:00 - 14:15 | 15 min | SLIDES | Alexandre Vilcek   | Introduce AutoML and explainability concepts             |
+| 14:15 - 14:45 | 30 min | LAB    |                    | Run through AutoML and explainability notebook           |
+| 14:45 - 15:00 | 15 min | PORTAL | Alexandre Vilcek   | Wrap up and go over slides                               |
+| 15:00 - 15:15 | 15 min |        |                    | Break                                                    |
+| 15:15 - 15:30 | 15 min | SLIDES | Seth Mottaghinejad | Introduce deployment concepts                            |
+| 15:30 - 16:15 | 45 min | LAB    |                    | Run through deployment notebook                          |
+| 16:15 - 16:30 | 15 min | PORTAL | Seth Mottaghinejad | Wrap up deployment                                       |
+| 16:30 - 17:00 | 30 min |        |                    | Wrap up and Q&A                                          |
 
 ## Lab setup
 
