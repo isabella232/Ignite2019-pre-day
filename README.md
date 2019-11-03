@@ -40,16 +40,15 @@ In this course, you learn how to create an end-to-end data science solution, app
 	!cd /data/home/labuser/notebooks
 	!git clone https://github.com/Azure/Ignite2019-pre-day.git # clone the course repo
 	```
-1. Create a new cell and type in the following command and run it: 
-	```
-	!chmod 755 Ignite2019-pre-day/install_lab.sh # make the bash script executable
-	!./Ignite2019-pre-day/install_lab.sh # run the bash script
-	```
+1. If you return to the Juypter file browser, you should now see a folder with the course content (if not refresh the page).
+   ![Course folder](./images/jupyter_course_folder.jpg)
+1. Navigate to the `Ignite2019-pre-day` folder and open the notebook `00_Lab_setup.ipynb`.
+   ![Open notebook](./images/jupyter_open_notebook.jpg)
 1. Restart the data science virtual machine from the Azure portal by 
    - log into the [Azure portal](https://portal.azure.com/) using the credentials in the lab credentials page
    - click on **Resource groups** and click on your resource group name (should be something like `ODL-machine-learning-######`)
    - click on the virtual machine resource (should be named something like `dsvm-#####`), and
    ![Resource group](./images/portal_resource_group.jpg)
    - click on **Restart**
-   ![Resource group](./images/portal_restart_dsvm.jpg)
+   ![Restart DSVM](./images/portal_restart_dsvm.jpg)
 
