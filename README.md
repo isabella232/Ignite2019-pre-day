@@ -42,7 +42,7 @@ In this course, you learn how to create an end-to-end data science solution, app
 	```
 1. If you return to the Juypter file browser, you should now see a folder with the course content (if not refresh the page).
    ![Course folder](./images/jupyter_course_folder.jpg)
-1. Navigate to the `Ignite2019-pre-day` folder and open the notebook `00_Lab_setup.ipynb`.
+1. Navigate to the `Ignite2019-pre-day` folder and open the notebook `00_Lab_setup.ipynb` and run through the steps in the notebook.
    ![Open notebook](./images/jupyter_open_notebook.jpg)
 1. Restart the data science virtual machine from the Azure portal by 
    - log into the [Azure portal](https://portal.azure.com/) using the credentials in the lab credentials page
