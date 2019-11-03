@@ -37,8 +37,8 @@ In this course, you learn how to create an end-to-end data science solution, app
   - kernels and conda
 1. Open a terminal window from Juyter by clicking on **New > Terminal** and type the following command to clone the course repository:
  	```
-	!cd /data/home/labuser/notebooks
-	!git clone https://github.com/Azure/Ignite2019-pre-day.git # clone the course repo
+	cd /data/home/labuser/notebooks
+	git clone https://github.com/Azure/Ignite2019-pre-day.git # clone the course repo
 	```
 1. If you return to the Juypter file browser, you should now see a folder with the course content (if not refresh the page).
    ![Course folder](./images/jupyter_course_folder.jpg)
